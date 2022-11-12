@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Group1 CRUD apllication",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server src/db.json -p 8888 -w true",
+    "wpack": "npx webpack"
+  },
+  "keywords": [
+    "CRUD",
+    "app",
+    "native",
+    "JS"
+  ],
+  "author": "Group1",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
